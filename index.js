@@ -14,7 +14,7 @@ function handler(event, context) {
       userData;
 
   if(type !== 'release') {
-    return context.fail('Event type must be "release" or "ping"');
+    return context.fail('Event type must be "release"');
   }
 
   hmac = crypto.createHmac('sha1', env.SECRET_TOKEN);
