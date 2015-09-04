@@ -1,0 +1,23 @@
+{
+  "name": "build-trigger-lambda",
+  "version": "1.0.0",
+  "description": "Aws lambda function that triggers an ec2 instance passing Github release hook data",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gammasoft/build-trigger-lambda.git"
+  },
+  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gammasoft/build-trigger-lambda/issues"
+  },
+  "homepage": "https://github.com/gammasoft/build-trigger-lambda",
+  "dependencies": {
+    "async": "^1.4.2",
+    "ec2-run-instance-lambda": "^1.0.1"
+  }
+}
